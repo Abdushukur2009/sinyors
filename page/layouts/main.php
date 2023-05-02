@@ -1,9 +1,9 @@
 <?php
-    require_once "header.php";
+    require_once $conf['view']."layouts/header.php";
     if (!isset($_SESSION['user'])) {
-        include $conf['view'].'home.php';
+        include $conf['view'].'view/home.php';
     }
-    require_once "footer.php";
+    require_once $conf['view']."layouts/footer.php";
 
 
 ?>
