@@ -2,7 +2,7 @@
 
 function asos()
 {
-    $db = new mysqli('localhost', 'root', '', 'sinyor');
+    $db = new mysqli('localhost', 'u294704900_husanboyev2oo5', 'Rahmatillo05@', 'u294704900_senior');
 
     if ($db->connect_errno <= 0) {
         $db->set_charset('utf8');
