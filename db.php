@@ -1,5 +1,4 @@
 <?php
-
 function asos()
 {
     $db = new mysqli('localhost', 'u294704900_husanboyev2oo5', 'Rahmatillo05@', 'u294704900_senior');
