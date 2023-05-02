@@ -165,6 +165,11 @@
                             $_SESSION['id1'] = $_POST['surname'];
                             break;
                         }
+                        ?>
+                        <script>
+                            window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                        </script>
+                    <?php
                     }
                     ?>
                     <div class="row mt-2">

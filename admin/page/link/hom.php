@@ -39,7 +39,7 @@
                                                         dalete('histore', 'id', $_GET['a']);
                             ?>
                              <script>
-                                 window.location.href = "http://localhost/sinyors/admin/?al=hom.php"
+                                 window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
                              </script>
                          <?php
                                                     }
@@ -81,7 +81,7 @@
                                                 upend('histore', ['title', 'text', 'galary_type', 'img'], [$_POST['title'], $_POST['text'], $_POST['gt'], $nom]);
                             ?>
                                 <script>
-                                window.location.href="http://localhost/sinyors/admin/?al=hom.php"
+                                window.location.href="https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
                                 </script>
                                  <?php
                                             }
@@ -91,7 +91,7 @@
                                                     upend('histore', ['title', 'text', 'galary_type', 'img'], [$_POST['title'], $_POST['text'], $_POST['gt'], $nom]);
                                     ?>
                                                     <script>
-                                                    window.location.href="http://localhost/sinyors/admin/?al=hom.php"
+                                                    window.location.href="https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
                                                     </script>
                                                      <?php
                                                     }

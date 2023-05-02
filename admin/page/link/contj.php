@@ -29,9 +29,20 @@
                             if (isset($_POST['go'])) {
                                 if (upend('galary',['user','dow_title'],[$_GET['v'],$_POST['name']])) {
                                     echo 'super';
+                                    ?>
+                                    <script>
+                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                                    </script>
+                                <?php
                                 }else{
                                     echo upend('galary',['user','dow_title'],[$_GET['v'],$_POST['name']]);
+                                    ?>
+                                    <script>
+                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                                    </script>
+                                <?php
                                 }
+
                             }
                             ?>
                         </div>
