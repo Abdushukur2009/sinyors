@@ -5,8 +5,8 @@
             <h3 class="games-page-lorem text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 quas quam
                 eligendi repellendus saepe
-                quasi omnis sapiente minima doloremque ducimus.</h3>
-                <h1>ssdsaf</h1>
+                quasi omnis sapiente minima doloremque ducimus.<h1>ssdsaf</h1></h3>
+                
             <br><br>
             <div class="row">
                 
