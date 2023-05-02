@@ -8,6 +8,7 @@
                 quasi omnis sapiente minima doloremque ducimus.</h3>
             <br><br>
             <div class="row">
+                salom
                 <?php
                 $get = gets('histore');
                 foreach ($get as $key => $v) :
