@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins";
+}
+a:hover {
+  text-decoration: none;
+  color: #ce2929;
+}
+.main-bg {
+  background-color: #191c24;
+}
+.menu-main-link {
+  color: #eb1616;
+  font-size: 2rem;
+}
+.menu-icon {
+  width: 5rem;
+}
+.menu-link {
+  color: #eb1616;
+}
+.icon-bars {
+  color: #eb1616;
+  font-size: 3rem;
+}
+.icon-bars:hover {
+  cursor: pointer;
+  color: #ce2929;
+}
+.image-dragon {
+  height: auto;
+  background-image: url(img/thumb-1920-114006.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+.welcome-text {
+  color: #eb1616;
+  font-size: 4rem;
+  padding-top: 8rem;
+  width: 100%;
+  
+}
+.welcome-text-lorem {
+  color: #eb1616;
+  padding-top: 3rem;
+  font-size: 1rem;
+  line-height: 50px;
+  width: 100%;
+}
+.search-home {
+  margin-top: 4rem;
+  color: #eb1616;
+  padding: 10px;
+  border-radius: 15px;
+  width: 300px;
+  font-size: 1.1rem;
+  background-color: transparent;
+  text-align: justify;
+}
+.go-text {
+  color: #eb1616;
+  font-size: 4rem;
+  padding-top: 6rem;
+}
+.color-red{
+  color: #eb1616;
+}
+.bg-black{
+  background-color: black;
+}
+.img-scl{
+  transition-duration: .5s;
+}
+.img-scl:hover{
+  transform: scale(2);
+}
+.overflow-new{
+  overflow: hidden;
+}
+.inp-contact{
+  padding: 20px;
+  font-size: 1.1rem;
+  background-color: black;
+  color: #eb1616;
+  width: 100%;
+  border-radius: 20px;
+}
+.hover-icon:hover{
+  color: white;
+}
+.hover-icon{
+  font-size: 50px;
+   color: #EB1616;
+   transition-duration: .5s;
+}
