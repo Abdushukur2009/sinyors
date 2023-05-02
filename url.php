@@ -2,8 +2,8 @@
 <?php
 $conf = [
     'view' => __DIR__ . '/page/view/',
-    'img' => 'http://localhost/sinyors/image/',
-    'img_src' => 'http://localhost/sinyors/img/',
+    'img' => 'http://seniors.vodiy-yulduzlari.com/image/',
+    'img_src' => 'http://seniors.vodiy-yulduzlari.com/img/',
     'do_img'=>'image/'
 ];
 function links($href = [])
