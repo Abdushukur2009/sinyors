@@ -6,3 +6,4 @@ include $conf['view2']."db.php";
 include  $conf['view2']."url.php";
 require  $conf['view']."layouts/main.php";
 ?>
+<h1>dfgsgfsdgfg</h1>
