@@ -6,9 +6,10 @@
                 quas quam
                 eligendi repellendus saepe
                 quasi omnis sapiente minima doloremque ducimus.</h3>
+                <h1>ssdsaf</h1>
             <br><br>
             <div class="row">
-                <h1>ssdsaf</h1>
+                
                 <?php
                 $get = gets('histore');
                 foreach ($get as $key => $v) :
