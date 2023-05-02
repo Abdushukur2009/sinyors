@@ -2,7 +2,7 @@
 <?php
 $conf = [
     'view' => "http://seniors.vodiy-yulduzlari.com/page/",
-    'view2' => "http://seniors.vodiy-yulduzlari.com/",
+    'view2' => __DIR__ . "/page/",
     'img' => 'http://seniors.vodiy-yulduzlari.com/image/',
     'img_src' => 'http://seniors.vodiy-yulduzlari.com/img/',
     'do_img'=>'image/'
