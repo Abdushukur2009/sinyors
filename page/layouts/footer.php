@@ -14,7 +14,7 @@
     
 
 
-<?=    scripts(["https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js","https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js",'popper.js','bootstrap.js','owl.js']);
+<?=    scripts(['jQuery.min.js','popper.js','bootstrap.js','owl.js']);
 ?>
 </body>
 
