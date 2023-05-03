@@ -29,7 +29,17 @@
                                 <td><?= $v['email'] ?></td>
                                 <td><?= $v['comment'] ?></td>
                                 <td><?= $v['time'] ?></td>
-                                <td><a href="?al=contj.php&v=<?= $v['username'] ?>" class="btn btn-outline-success btn-sm">javob</a></td>
+                                <td><a href="?al=cont.php&v=<?= $v['username'] ?>" class="btn btn-outline-success btn-sm">javob</a></td>
+<?php
+if (isset($_GET['v'])){
+
+?>
+<script>
+    window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=contj.php&v=<?= $v['username'] ?>"
+</script>
+<?php
+}
+?>
                             </tr>
                         <?php
                         endforeach;
