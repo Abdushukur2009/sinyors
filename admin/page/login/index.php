@@ -3,7 +3,7 @@ $sa = "";
 if (isset($_POST['btn'])) {
     $password = $_POST['password'];
     $name = $_POST['text'];
-    if ($password == "Abdushukur" && $name == "eng_zo'r") {
+    if ($password == "Abdushukur" && $name == "eng_super") {
         $sa = '<a href="?al=hom.php">kirish</a>';
     } else {
         $sa = "not";
