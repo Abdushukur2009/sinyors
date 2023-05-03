@@ -167,7 +167,7 @@
                         }
                         ?>
                         <script>
-                            window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                            window.location.href = "https://seniors.vodiy-yulduzlari.com"
                         </script>
                     <?php
                     }
