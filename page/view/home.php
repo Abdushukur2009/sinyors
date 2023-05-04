@@ -1,23 +1,30 @@
 <div class="container-fluid bg-black">
     <section class="games" id="games">
         <div class="container py-3 color-red"><br><br><br><br><br><br><br>
-            <h1 class="games-page text-center">Games Section</h1>
+            <h1 class="games-page text-center">
+                O'yinlar bo'limi</h1>
             <h3 class="games-page-lorem text-center">
-            Oʻyin —tarbiyalash va hordiq chiqarish vositalaridan biri.</h3>
-                
+                Oʻyin —tarbiyalash va hordiq chiqarish vositalaridan biri.</h3>
+
             <br><br>
             <div class="row">
-                
+
                 <?php
                 $get = gets('histore');
-                foreach ($get as $key => $v) :
-                ?>
-                    <div class="overflow-new col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 offset-0 offset-sm-1 offset-md-0 offset-lg-0 offset-xl-0 p-3">
-                        <img src="<?= $conf['img']  . $v['img'] ?>?>" class="img-scl" height="150px" width="100%" alt=""><br>
-                        <b style="font-size: 10px;"><?= $v['title'] ?></b><br><br><br>
-                        <span><?= $v['text'] ?></span>
+                foreach ($get as $key => $v):
+                    ?>
+                    <div
+                        class="overflow-new col-12 col-sm-10 col-md-6 col-lg-4 col-xl-3 offset-0 offset-sm-1 offset-md-0 offset-lg-0 offset-xl-0 p-3">
+                        <img src="<?= $conf['img'] . $v['img'] ?>?>" class="img-scl" height="150px" width="100%"
+                            alt=""><br>
+                        <b style="font-size: 10px;">
+                            <?= $v['title'] ?>
+                        </b><br><br><br>
+                        <span>
+                            <?= $v['text'] ?>
+                        </span>
                     </div>
-                <?php
+                    <?php
                 endforeach;
                 ?>
 
@@ -37,14 +44,13 @@
             <h1>ekshin</h1>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == 'ekshin') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == 'ekshin'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -55,14 +61,13 @@
             <br>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == 'strategik') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == 'strategik'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -72,14 +77,13 @@
             <br>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == 'jangari') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == 'jangari'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -88,14 +92,13 @@
             <h1>0+</h1> <br>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == '0+') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == '0+'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -104,14 +107,13 @@
             <h1>7+</h1><br>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == '7+') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == '7+'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -120,14 +122,13 @@
             <h1>16+</h1><br>
             <div class="owl-carousel owl-theme">
                 <?php
-                $get = gets('histore');
-                foreach ($get as $v => $k) :
-                    if ($k['galary_type'] == '16+') :
-                ?>
+                $get = gets('histore'); foreach ($get as $v => $k):
+                    if ($k['galary_type'] == '16+'):
+                        ?>
                         <div class="item">
                             <img src="<?= $conf['img'] . $k['img'] ?>" height="202px">
                         </div>
-                <?php
+                        <?php
                     endif;
                 endforeach;
                 ?>
@@ -148,12 +149,18 @@
             <div class="row">
                 <div class="col-12">
                     <form method="post" action="">
-                        <input type="text" required name="name" class="inp-contact" style="text-transform: capitalize;" placeholder="Name" maxlength="30"><br><br>
-                        <input type="text" required name="surname" class="inp-contact" style="text-transform: capitalize;" placeholder="Surname" maxlength="30"><br><br>
-                        <input type="email" required name="email" placeholder="Email" style="text-transform: capitalize;" class="inp-contact" maxlength="30"><br><br>
-                        <input type="password" required name="password" placeholder="Password" style="text-transform: capitalize;" class="inp-contact"><br><br>
-                        <textarea name="comment" required placeholder="comment" class="inp-contact"></textarea><br><br><br>
-                        <button type="submit" name="go" class="btn btn-outline-danger" style="margin: 0 auto;">SendMe</button><br><br>
+                        <input type="text" required name="name" class="inp-contact" style="text-transform: capitalize;"
+                            placeholder="Name" maxlength="30"><br><br>
+                        <input type="text" required name="surname" class="inp-contact"
+                            style="text-transform: capitalize;" placeholder="Surname" maxlength="30"><br><br>
+                        <input type="email" required name="email" placeholder="Email"
+                            style="text-transform: capitalize;" class="inp-contact" maxlength="30"><br><br>
+                        <input type="password" required name="password" placeholder="Password"
+                            style="text-transform: capitalize;" class="inp-contact"><br><br>
+                        <textarea name="comment" required placeholder="comment"
+                            class="inp-contact"></textarea><br><br><br>
+                        <button type="submit" name="go" class="btn btn-outline-danger"
+                            style="margin: 0 auto;">SendMe</button><br><br>
                     </form>
                     <?php
                     if (isset($_POST['go'])) {
@@ -167,7 +174,7 @@
                         <script>
                             window.location.href = "https://seniors.vodiy-yulduzlari.com"
                         </script>
-                    <?php
+                        <?php
                     }
                     ?>
                     <div class="row mt-2">
@@ -182,12 +189,12 @@
                                     if (count($take) >= 0) {
                                         $get = search('galary', 'user', $_SESSION['id1']);
 
-                                        foreach ($get as $key => $v) : ?>
+                                        foreach ($get as $key => $v): ?>
                                             <div class="col-6 offset-3 my-2 p-2 border border-danger">
-                                            <?= $v['dow_title'] ?>
+                                                <?= $v['dow_title'] ?>
 
                                             </div>
-                                <?php
+                                            <?php
                                         endforeach;
                                     }
                                 }
