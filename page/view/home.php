@@ -2,7 +2,7 @@
     <section class="games" id="games">
         <div class="container py-3 color-red"><br><br><br><br><br><br><br>
             <h1 class="games-page text-center">Games Section</h1>
-            <h3 class="games-page-lorem text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            <h3 class="games-page-lorem text-center">
             Oʻyin —tarbiyalash va hordiq chiqarish vositalaridan biri.</h3>
                 
             <br><br>
