@@ -36,10 +36,7 @@
     <section id="images">
         <div class="container color-red"><br><br><br>
             <h1 class="games-page text-center">Games IMAGES</h1>
-            <h3 class="games-page-lorem text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                quas quam
-                eligendi repellendus saepe
-                quasi omnis sapiente minima doloremque ducimus.</h3>
+            <h3 class="games-page-lorem text-center">Bizdagi o'yinlar haqida malumot va rasimlar Oʻyin sizga yoqgan bolsa bizga habar bering <a href="#contact">Aloqa</a></h3>
             <br><br>
             <h1>ekshin</h1>
             <div class="owl-carousel owl-theme">

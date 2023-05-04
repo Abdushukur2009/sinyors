@@ -19,16 +19,16 @@
                         width="100px">Games</a>
                 <div class="collapse navbar-collapse justify-content-end" id="one">
                     <ul class="navbar-nav mr-4 text-center">
-                        <li class="nav-item menu-link"><a href="#" class="nav-link mx-3 span-hover menu-link">HOME</a>
+                        <li class="nav-item menu-link"><a href="#" class="nav-link mx-3 span-hover menu-link">ASOSY</a>
                         </li>
                         <li class="nav-item menu-link"><a href="#games"
-                                class="nav-link mx-3 span-hover menu-link">GAMES</a>
+                                class="nav-link mx-3 span-hover menu-link">O'YINLAR</a>
                         </li>
                         <li class="nav-item menu-link"><a href="#images"
-                                class="nav-link mx-3 span-hover menu-link">IMAGES</a>
+                                class="nav-link mx-3 span-hover menu-link">RASIMLAR</a>
                         </li>
                         <li class="nav-item menu-link"><a href="#contact"
-                                class="nav-link mx-3 span-hover menu-link">CONTACT</a>
+                                class="nav-link mx-3 span-hover menu-link">ALOQA</a>
                         </li>
                     </ul>
                 </div>
@@ -42,10 +42,10 @@
                         <h1 class="welcome-text">"GameSite"ga Hushkelibsiz</h1>
                         <p class="welcome-text-lorem">
                             Maʼlumki, inson oʻz hayotida oʻyin, oʻqish, mehnat, dam olish kabi mashgʻulotlar bilan band
-                            boʻladi. Inson hayotining dastlabki davrlarida Oʻ. asosiy faoliyat hisoblanadi, keyin esa u
-                            oʻqish bilan baravar davom etadi, undan soʻng esa Oʻ. kamayib, uning oʻrnini oʻqish va
-                            mehnat egallaydi. Odamzod tarixining dastlabki davrlarida Oʻ.lar hayotda muhim oʻrin tutgan.
-                            Oʻ.lar yordamida insoniyat oʻsgan, ulgʻaygan, chiniqqan, jismonan baquvvat boʻlgan, aqlan,
+                            boʻladi. Inson hayotining dastlabki davrlarida O'yinlar osiy faoliyat hisoblanadi, keyin esa u
+                            oʻqish bilan baravar davom etadi, undan soʻng esa O'yinlar mayib, uning oʻrnini oʻqish va
+                            mehnat egallaydi. Odamzod tarixining dastlabki davrlarida O'yinlar hayotda muhim oʻrin tutgan.
+                            O'yinlar yordamida insoniyat oʻsgan, ulgʻaygan, chiniqqan, jismonan baquvvat boʻlgan, aqlan,
                             ruhan rivojlangan, maʼnaviy kamol topgan.
                         </p>
                         <br><br>
