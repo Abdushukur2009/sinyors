@@ -44,7 +44,7 @@
                                     <?= $v['time'] ?>
                                 </td>
                                 <td><a href="?al=cont.php&d=<?= $v['id'] ?>"
-                                        class="btn btn-outline-success btn-sm">o'chir</a><a
+                                        class="btn btn-outline-danger btn-sm">o'chir</a><a
                                         href="?al=contj.php&v=<?= $v['username'] ?>"
                                         class="btn btn-outline-success btn-sm">javob</a></td>
                             </tr>
@@ -52,6 +52,11 @@
                         endforeach;
                         if (isset($_GET['d'])) {
                             dalete('users','id',$_GET['d']);
+                            ?>
+                            <script>
+                                window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=cont.php"
+                            </script>
+                        <?php
                         }
                         ?>
                     </table>

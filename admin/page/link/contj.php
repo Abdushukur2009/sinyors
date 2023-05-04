@@ -31,14 +31,14 @@
                                     echo 'super';
                                     ?>
                                     <script>
-                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=contj.php"
                                     </script>
                                 <?php
                                 }else{
                                     echo upend('galary',['user','dow_title'],[$_GET['v'],$_POST['name']]);
                                     ?>
                                     <script>
-                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=hom.php"
+                                        window.location.href = "https://seniors.vodiy-yulduzlari.com/admin/?al=contj.php"
                                     </script>
                                 <?php
                                 }
