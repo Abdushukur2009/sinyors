@@ -4,7 +4,7 @@
             <h1 class="games-page text-center">
                 O'yinlar bo'limi</h1>
             <h3 class="games-page-lorem text-center">
-                Oʻyin —tarbiyalash va hordiq chiqarish vositalaridan biri.</h3>
+            Bizdagi o'yinlar haqida malumot va rasimlar Oʻyin sizga yoqgan bolsa bizga habar bering <a href="#contact">Aloqa</a></h3>
 
             <br><br>
             <div class="row">
@@ -35,8 +35,8 @@
 <div class="container-fluid bg-black">
     <section id="images">
         <div class="container color-red"><br><br><br>
-            <h1 class="games-page text-center">Games IMAGES</h1>
-            <h3 class="games-page-lorem text-center">Bizdagi o'yinlar haqida malumot va rasimlar Oʻyin sizga yoqgan bolsa bizga habar bering <a href="#contact">Aloqa</a></h3>
+            <h1 class="games-page text-center">Oyin rasimlari</h1>
+            <h3 class="games-page-lorem text-center"> Oʻyin —tarbiyalash va hordiq chiqarish vositalaridan biri.</h3>
             <br><br>
             <h1>ekshin</h1>
             <div class="owl-carousel owl-theme">
